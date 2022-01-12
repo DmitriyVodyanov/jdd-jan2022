@@ -74,15 +74,15 @@ public class CsvHelper {
 		// TODO
 	}
 
-//	public static void main (String[]args) throws FileNotFoundException {
-//		Reader reader = new BufferedReader(new FileReader("D:\\test.txt"));
-//		parseFile(reader, true, ',');
-//
-//		String[][] arr = new String[2][1];
-//		arr[0][0] = "1";
-//		arr[1][0] = "2";
-//		System.out.println(Arrays.deepToString(arr));
-//	}
+	public static void main (String[]args) throws FileNotFoundException {
+		Reader reader = new BufferedReader(new FileReader("D:\\test.txt"));
+		parseFile(reader, true, ',');
+
+		String[][] arr = new String[2][1];
+		arr[0][0] = "1";
+		arr[1][0] = "2";
+		System.out.println(Arrays.deepToString(arr));
+	}
 
 }
 
