@@ -1,5 +1,7 @@
 package academy.kovalevskyi.javadeepdive.week0.day2;
 
+import java.util.Arrays;
+
 public record Csv(String[] header, String[][] values) {
 
 	public static class Builder {
